@@ -1,0 +1,43 @@
+{
+  "name": "sai",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:api": "node --watch backend/src/server.js",
+    "start:api": "node backend/src/server.js",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fastify/cors": "^11.2.0",
+    "@fastify/multipart": "^10.0.0",
+    "@lucide/vue": "^1.17.0",
+    "@tailwindcss/vite": "^4.3.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "dotenv": "^17.4.2",
+    "fastify": "^5.8.5",
+    "firebase": "^12.15.0",
+    "firebase-admin": "^14.0.0",
+    "gsap": "^3.15.0",
+    "lenis": "^1.3.26",
+    "nodemailer": "^8.0.10",
+    "pg": "^8.21.0",
+    "tailwind-merge": "^3.6.0",
+    "tailwindcss": "^4.3.0",
+    "tailwindcss-animate": "^1.0.7",
+    "vue": "^3.5.32",
+    "vue-router": "^5.0.4",
+    "vue3-toastify": "^0.2.9"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.6",
+    "vite": "^8.0.8",
+    "vite-plugin-vue-devtools": "^8.1.1"
+  },
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  }
+}

@@ -1,0 +1,90 @@
+-- Datos de prueba desactivados - agregar datos manualmente desde el panel admin
+
+-- INSERT INTO categories (name, slug, is_active)
+-- VALUES
+--   ('PLC', 'plc', true),
+--   ('HMI', 'hmi', true),
+--   ('Drivers', 'drivers', true),
+--   ('Sensores', 'sensores', true),
+--   ('Fuentes', 'fuentes', true),
+--   ('Redes', 'redes', true)
+-- ON CONFLICT (slug) DO NOTHING;
+--
+-- INSERT INTO products (
+--   category_id,
+--   name,
+--   code,
+--   description,
+--   image_url,
+--   origin,
+--   condition,
+--   is_active
+-- )
+-- SELECT c.id,
+--   p.name,
+--   p.code,
+--   p.description,
+--   p.image_url,
+--   p.origin,
+--   p.condition,
+--   true
+-- FROM (
+--   VALUES
+--     ('plc', 'SIMATIC S7-1200 CPU 1214C', 'PLC-1200-1214C', 'Controlador lógico programable (PLC) compacto diseñado para aplicaciones de automatización industrial, control de maquinaria y procesos productivos. Integra entradas y salidas digitales, capacidad de expansión modular y comunicación industrial para una implementación flexible y eficiente.', 'https://liesa.com.ar/web/image/product.template/68382/image_1024?unique=2b59a8d', 'Alemania', 'Nuevo'),
+--     ('plc', 'SIMATIC S7-1500 CPU 1511', 'PLC-1500-1511', 'PLC de alto rendimiento para sistemas de automatización de mediana y alta complejidad. Incorpora arquitectura avanzada de procesamiento, comunicación PROFINET integrada y funciones de diagnóstico que permiten optimizar la productividad, disponibilidad y escalabilidad de las instalaciones industriales.', 'https://liesa.com.ar/web/image/product.template/68382/image_1024?unique=2b59a8d', 'Alemania', 'Nuevo'),
+--     ('hmi', 'Panel HMI KTP700 Basic', 'HMI-KTP700', 'Panel operador HMI con pantalla táctil de 7 pulgadas para supervisión, control y visualización de procesos industriales. Permite interactuar con PLCs y equipos de automatización mediante una interfaz intuitiva, facilitando la operación y el monitoreo en tiempo real.', 'https://liesa.com.ar/web/image/product.template/68382/image_1024?unique=2b59a8d', 'Alemania', 'Nuevo'),
+--     ('hmi', 'Panel HMI Comfort 12"', 'HMI-COMFORT-12', 'Interfaz hombre-máquina de alto desempeño diseñada para aplicaciones industriales que requieren visualización avanzada, gestión de alarmas, recetas y diagnósticos. Su amplia pantalla táctil mejora la experiencia operativa y el acceso a información crítica del proceso.', 'https://liesa.com.ar/web/image/product.template/68382/image_1024?unique=2b59a8d', 'Alemania', 'Nuevo'),
+--     ('drivers', 'Variador SINAMICS G120', 'DRV-G120', 'Variador de frecuencia modular para el control eficiente de motores eléctricos en aplicaciones industriales. Optimiza el consumo energético, mejora el rendimiento operativo y permite un control preciso de velocidad y torque en sistemas de transporte, bombeo y ventilación.', 'https://liesa.com.ar/web/image/product.template/68382/image_1024?unique=2b59a8d', 'Alemania', 'Nuevo'),
+--     ('drivers', 'Servo Drive V90', 'DRV-V90', 'Sistema servo diseñado para aplicaciones de movimiento y posicionamiento de alta precisión. Ideal para maquinaria automatizada, equipos de ensamblaje y procesos que requieren sincronización, repetibilidad y control dinámico de ejes.', 'https://liesa.com.ar/web/image/product.template/68382/image_1024?unique=2b59a8d', 'Japón', 'Nuevo'),
+--     ('sensores', 'Sensor inductivo M18', 'SNS-IND-M18', 'Sensor inductivo industrial para detección confiable de objetos metálicos sin contacto físico. Su construcción robusta y resistencia a condiciones exigentes lo convierten en una solución ideal para líneas de producción, automatización y sistemas de control.', 'https://liesa.com.ar/web/image/product.template/68382/image_1024?unique=2b59a8d', 'Suiza', 'Nuevo'),
+--     ('fuentes', 'Fuente SITOP 24V 10A', 'PWR-24V-10A', 'Fuente de alimentación industrial estabilizada de 24 VDC diseñada para suministrar energía confiable a PLCs, HMIs, sensores y dispositivos de control. Ofrece alta eficiencia, protección integrada y funcionamiento continuo en entornos industriales.', 'https://liesa.com.ar/web/image/product.template/68382/image_1024?unique=2b59a8d', 'Alemania', 'Nuevo'),
+--     ('redes', 'Switch Industrial Profinet', 'NET-PN-8P', 'Switch Ethernet industrial administrable para redes de automatización basadas en PROFINET. Garantiza comunicaciones estables entre controladores, HMIs, variadores y dispositivos de campo, proporcionando alta disponibilidad y rendimiento en entornos productivos.', 'https://liesa.com.ar/web/image/product.template/68382/image_1024?unique=2b59a8d', 'Alemania', 'Nuevo')
+-- ) AS p(category_slug, name, code, description, image_url, origin, condition)
+-- JOIN categories c ON c.slug = p.category_slug
+-- ON CONFLICT (code) DO NOTHING;
+--
+-- INSERT INTO clients (name, logo_url, sort_order, is_active)
+-- VALUES
+--   ('Acindar', '/acindar.png', 1, true),
+--   ('Alfajores Jorgitos', '/AlfajoresJorgitos.png', 2, true),
+--   ('Alfa Laval', '/AlfaLaval.png', 3, true),
+--   ('Alimentos Irigoyen', '/AlimentosIrigoyen.png', 4, true),
+--   ('Arcor', '/Arcor.png', 5, true),
+--   ('Argental', '/Argental.png', 6, true),
+--   ('Celulosa Argentina', '/CelulosaArgentina.png', 7, true),
+--   ('Ceramica Alberdi', '/CeramicaAlberdi.png', 8, true),
+--   ('Cirmaq', '/Cirmaq.png', 9, true),
+--   ('Coca Cola', '/Cocacola.png', 10, true),
+--   ('CVO', '/CVO.png', 11, true),
+--   ('CYM', '/CYM.png', 12, true),
+--   ('Danone', '/Danone.png', 13, true),
+--   ('Eaton', '/Eaton.png', 14, true),
+--   ('Essen', '/essen.png', 15, true),
+--   ('Funcional', '/funcional.png', 16, true),
+--   ('Gafa', '/Gafa.png', 17, true),
+--   ('GE', '/GE.png', 18, true),
+--   ('Gerdau', '/gerdau.png', 19, true),
+--   ('Gestamp', '/Gestamp.png', 20, true),
+--   ('GM', '/GM.png', 21, true),
+--   ('Granix', '/Granix.png', 22, true),
+--   ('La Virginia', '/LaVirginia.png', 23, true),
+--   ('Lheritier', '/Lheritier.png', 24, true),
+--   ('Maincal', '/Maincal.png', 25, true),
+--   ('Mapsa', '/Mapsa.png', 26, true),
+--   ('Owen Illinois', '/OwenIlinois.png', 27, true),
+--   ('Paladini', '/Paladini.png', 28, true),
+--   ('Pirelli', '/Pirelli.png', 29, true),
+--   ('Pro Agro', '/ProAgro.png', 30, true),
+--   ('Quilmes', '/Quilmes.png', 31, true),
+--   ('Rheem', '/Rheem.png', 32, true),
+--   ('Sadepan', '/Sadepan.png', 33, true),
+--   ('Scania', '/Scania.png', 34, true),
+--   ('Siderca', '/Siderca.png', 35, true),
+--   ('Swift', '/Swift.png', 36, true),
+--   ('Syngenta', '/Syngenta.png', 37, true),
+--   ('Tenaris', '/Tenaris.png', 38, true),
+--   ('Ultra Petrol', '/ultrapetrol.png', 39, true),
+--   ('Valeo', '/valeo.png', 40, true),
+--   ('Vicentin', '/vicentin.png', 41, true),
+--   ('Yomo', '/Yomo.png', 42, true)
+-- ON CONFLICT DO NOTHING;

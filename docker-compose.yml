@@ -1,0 +1,75 @@
+services:
+  db:
+    image: postgres:16-alpine
+    container_name: sai-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-sai}
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres}
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./db/init:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-postgres} -d ${POSTGRES_DB:-sai}"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  api:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    container_name: sai-api
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      NODE_ENV: production
+      PORT: 3000
+      HOST: 0.0.0.0
+      DATABASE_URL: postgresql://${POSTGRES_USER:-postgres}:${POSTGRES_PASSWORD:-postgres}@db:5432/${POSTGRES_DB:-sai}
+      CORS_ORIGIN: ${BACKEND_CORS_ORIGIN:-*}
+      MAX_IMAGE_SIZE_MB: ${BACKEND_MAX_IMAGE_SIZE_MB:-3}
+      FIREBASE_PROJECT_ID: ${BACKEND_FIREBASE_PROJECT_ID:-}
+      FIREBASE_CLIENT_EMAIL: ${BACKEND_FIREBASE_CLIENT_EMAIL:-}
+      FIREBASE_PRIVATE_KEY: ${BACKEND_FIREBASE_PRIVATE_KEY:-}
+      FIREBASE_STORAGE_BUCKET: ${BACKEND_FIREBASE_STORAGE_BUCKET:-}
+      ADMIN_EMAIL: ${BACKEND_ADMIN_EMAIL:-}
+      ADMIN_UID: ${BACKEND_ADMIN_UID:-}
+      SMTP_HOST: ${BACKEND_SMTP_HOST:-}
+      SMTP_PORT: ${BACKEND_SMTP_PORT:-587}
+      SMTP_SECURE: ${BACKEND_SMTP_SECURE:-false}
+      SMTP_USER: ${BACKEND_SMTP_USER:-}
+      SMTP_PASS: ${BACKEND_SMTP_PASS:-}
+      SMTP_FROM: ${BACKEND_SMTP_FROM:-}
+      CONTACT_TO_EMAIL: ${BACKEND_CONTACT_TO_EMAIL:-}
+    ports:
+      - "${API_PORT:-3000}:3000"
+
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+      args:
+        VITE_API_BASE_URL: ${VITE_API_BASE_URL:-http://localhost:3000}
+        VITE_MAX_IMAGE_SIZE_MB: ${VITE_MAX_IMAGE_SIZE_MB:-3}
+        VITE_FIREBASE_API_KEY: ${VITE_FIREBASE_API_KEY:-}
+        VITE_FIREBASE_AUTH_DOMAIN: ${VITE_FIREBASE_AUTH_DOMAIN:-}
+        VITE_FIREBASE_PROJECT_ID: ${VITE_FIREBASE_PROJECT_ID:-}
+        VITE_FIREBASE_STORAGE_BUCKET: ${VITE_FIREBASE_STORAGE_BUCKET:-}
+        VITE_FIREBASE_MESSAGING_SENDER_ID: ${VITE_FIREBASE_MESSAGING_SENDER_ID:-}
+        VITE_FIREBASE_APP_ID: ${VITE_FIREBASE_APP_ID:-}
+        VITE_ADMIN_EMAIL: ${VITE_ADMIN_EMAIL:-}
+    container_name: sai-frontend
+    restart: unless-stopped
+    depends_on:
+      - api
+    ports:
+      - "${FRONTEND_PORT:-8080}:80"
+
+volumes:
+  postgres_data:

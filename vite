@@ -1,0 +1,439 @@
+
+
+  VITE v8.0.16  ready in 409 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+1:10:19 PM [vite] (client) hmr update /src/views/HomeView.vue, /src/assets/main.css
+1:10:31 PM [vite] (client) hmr update /src/components/IndustriesSection.vue, /src/assets/main.css
+1:15:45 PM [vite] (client) hmr update /src/components/IndustriesSection.vue, /src/assets/main.css (x2)
+1:15:49 PM [vite] (client) hmr update /src/assets/main.css
+1:15:57 PM [vite] (client) hmr update /src/components/IndustriesSection.vue, /src/assets/main.css
+1:15:58 PM [vite] (client) hmr update /src/assets/main.css
+1:20:06 PM [vite] (client) hmr update /src/components/IndustriesSection.vue, /src/assets/main.css
+1:45:01 PM [vite] (client) hmr update /src/assets/main.css
+1:45:01 PM [vite] Internal server error: Can't resolve 'tw-animate-css' in '/Users/nicolastrucco/Docum
+1:45:01 PM [vite] Internal server eran't resolve 'tw-animate-css' in '/Users/nicolastrucco/Documents/Sai/src/assets'
+  Plugin: @tailwindcss/vite:generate:serve
+  File: /Users/nicolastrucco/Documents/Sai/src/assets/main.css
+      at finishWithoutResolve (/Users/nicolastrucco/Documents/Sai/node_modules/enhanced-resolve/lib/Re
+      at finishWithoutResolve (/Users/nicolastrucco/Documents/Sai/node_modules/enhanced-resolve/lib/Resolver.js:943:18)
+      at /Users/nicolastrucco/Documents/Sai/node_modules/enhanced-resolve/lib/Resolver.js:1035:14
+      at /Users/nicolastrucco/Documents/Sai/node_modules/enhanced-resolve/lib/Resolver.js:1112:5
+      at eval (eval at create (/Users/nicolastrucco/Documents/Sai/node_modules/tapable/lib/HookCodeFac
+      at eval (eval at create (/Users/nicolastrucco/Documents/Sai/node_modules/tapable/lib/HookCodeFactory.js:31:10), <anonymous>:15:1)
+      at /Users/nicolastrucco/Documents/Sai/node_modules/enhanced-resolve/lib/Resolver.js:1112:5
+      at eval (eval at create (/Users/nicolastrucco/Documents/Sai/node_modules/tapable/lib/HookCodeFac
+      at eval (eval at create (/Users/nicolastrucco/Documents/Sai/node_modules/tapable/lib/HookCodeFactory.js:31:10), <anonymous>:27:1)
+      at /Users/nicolastrucco/Documents/Sai/node_modules/enhanced-resolve/lib/DescriptionFilePlugin.js
+      at /Users/nicolastrucco/Documents/Sai/node_modules/enhanced-resolve/lib/DescriptionFilePlugin.js:94:43
+      at /Users/nicolastrucco/Documents/Sai/node_modules/enhanced-resolve/lib/Resolver.js:1112:5
+      at eval (eval at create (/Users/nicolastrucco/Documents/Sai/node_modules/tapable/lib/HookCodeFac
+      at eval (eval at create (/Users/nicolastrucco/Documents/Sai/node_modules/tapable/lib/HookCodeFactory.js:31:10), <anonymous>:15:1)
+      at /Users/nicolastrucco/Documents/Sai/node_modules/enhanced-resolve/lib/Resolver.js:1112:5
+1:45:04 PM [vite] (client) hmr update /src/assets/main.css
+1:45:05 PM [vite] Internal server error: Can't resolve 'tw-animate-css' in '/Users/nicolastrucco/Docum
+1:45:05 PM [vite] Internal server error: Can't resolve 'tw-animate-css' in '/Users/nicolastrucco/Documents/Sai/src/assets'
+  Plugin: @tailwindcss/vite:generate:serve
+  File: /Users/nicolastrucco/Documents/Sai/src/assets/main.css
+      at finishWithoutResolve (/Users/nicolastrucco/Documents/Sai/node_modules/enhanced-resolve/lib/Re
+      at finishWithoutResolve (/Users/nicolastrucco/Documents/Sai/node_modules/enhanced-resolve/lib/Resolver.js:943:18)
+      at /Users/nicolastrucco/Documents/Sai/node_modules/enhanced-resolve/lib/Resolver.js:1035:14
+      at /Users/nicolastrucco/Documents/Sai/node_modules/enhanced-resolve/lib/Resolver.js:1112:5
+      at eval (eval at create (/Users/nicolastrucco/Documents/Sai/node_modules/tapable/lib/HookCodeFac
+      at eval (eval at create (/Users/nicolastrucco/Documents/Sai/node_modules/tapable/lib/HookCodeFactory.js:31:10), <anonymous>:15:1)
+      at /Users/nicolastrucco/Documents/Sai/node_modules/enhanced-resolve/lib/Resolver.js:1112:5
+      at eval (eval at create (/Users/nicolastrucco/Documents/Sai/node_modules/tapable/lib/HookCodeFac
+      at eval (eval at create (/Users/nicolastrucco/Documents/Sai/node_modules/tapable/lib/HookCodeFactory.js:31:10), <anonymous>:27:1)
+      at /Users/nicolastrucco/Documents/Sai/node_modules/enhanced-resolve/lib/DescriptionFilePlugin.js
+      at /Users/nicolastrucco/Documents/Sai/node_modules/enhanced-resolve/lib/DescriptionFilePlugin.js:94:43
+      at /Users/nicolastrucco/Documents/Sai/node_modules/enhanced-resolve/lib/Resolver.js:1112:5
+      at eval (eval at create (/Users/nicolastrucco/Documents/Sai/node_modules/tapable/lib/HookCodeFac
+      at eval (eval at create (/Users/nicolastrucco/Documents/Sai/node_modules/tapable/lib/HookCodeFactory.js:31:10), <anonymous>:15:1)
+      at /Users/nicolastrucco/Documents/Sai/node_modules/enhanced-resolve/lib/Resolver.js:1112:5
+1:47:52 PM [vite] (client) hmr update /src/views/HomeView.vue, /src/assets/main.css
+1:47:52 PM [vite] (client) Pre-transform error: Failed to resolve import "@inspira-ui/plugins" from "s
+1:47:52 PM [vite] (client) Pre-transform error: Failed to resolve import "@inspira-ui/plugins" from "src/components/ui/marquee/Marquee.vue". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/nicolastrucco/Documents/Sai/src/components/ui/marquee/Marquee.vue:2:20
+  1  |  import { cn } from "@inspira-ui/plugins";
+     |                      ^
+  2  |  
+  3  |  const _sfc_main = {
+1:47:52 PM [vite] Internal server error: Failed to resolve import "@inspira-ui/plugins" from "src/comp
+1:47:52 PM [vite] Internal server error: Failed to resolve import "@inspira-ui/plugins" from "src/components/ui/marquee/Marquee.vue". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/nicolastrucco/Documents/Sai/src/components/ui/marquee/Marquee.vue:2:20
+  1  |  import { cn } from "@inspira-ui/plugins";
+     |                      ^
+  2  |  
+  3  |  const _sfc_main = {
+      at TransformPluginContext._formatLog (file:///Users/nicolastrucco/Documents/Sai/node_modules/vit
+      at TransformPluginContext._formatLog (file:///Users/nicolastrucco/Documents/Sai/node_modules/vite/dist/node/chunks/node.js:30602:39)
+      at TransformPluginContext.error (file:///Users/nicolastrucco/Documents/Sai/node_modules/vite/dis
+      at TransformPluginContext.error (file:///Users/nicolastrucco/Documents/Sai/node_modules/vite/dist/node/chunks/node.js:30599:14)
+      at normalizeUrl (file:///Users/nicolastrucco/Documents/Sai/node_modules/vite/dist/node/chunks/no
+      at normalizeUrl (file:///Users/nicolastrucco/Documents/Sai/node_modules/vite/dist/node/chunks/node.js:27842:18)
+      at async file:///Users/nicolastrucco/Documents/Sai/node_modules/vite/dist/node/chunks/node.js:27
+      at async file:///Users/nicolastrucco/Documents/Sai/node_modules/vite/dist/node/chunks/node.js:27905:30
+      at async Promise.all (index 0)
+      at async TransformPluginContext.transform (file:///Users/nicolastrucco/Documents/Sai/node_module
+      at async TransformPluginContext.transform (file:///Users/nicolastrucco/Documents/Sai/node_modules/vite/dist/node/chunks/node.js:27873:4)
+      at async EnvironmentPluginContainer.transform (file:///Users/nicolastrucco/Documents/Sai/node_mo
+      at async EnvironmentPluginContainer.transform (file:///Users/nicolastrucco/Documents/Sai/node_modules/vite/dist/node/chunks/node.js:30387:14)
+      at async loadAndTransform (file:///Users/nicolastrucco/Documents/Sai/node_modules/vite/dist/node
+      at async loadAndTransform (file:///Users/nicolastrucco/Documents/Sai/node_modules/vite/dist/node/chunks/node.js:24646:26)
+      at async viteTransformMiddleware (file:///Users/nicolastrucco/Documents/Sai/node_modules/vite/di
+      at async viteTransformMiddleware (file:///Users/nicolastrucco/Documents/Sai/node_modules/vite/dist/node/chunks/node.js:24440:20)
+1:48:40 PM [vite] (client) hmr update /src/components/ClientsSection.vue, /src/assets/main.css
+1:48:45 PM [vite] (client) hmr update /src/assets/main.css
+1:49:00 PM [vite] (client) hmr update /src/components/ClientsSection.vue, /src/assets/main.css
+1:49:03 PM [vite] (client) hmr update /src/assets/main.css
+1:51:29 PM [vite] (client) hmr update /src/components/ClientsSection.vue, /src/assets/main.css
+1:51:33 PM [vite] (client) hmr update /src/assets/main.css
+1:55:50 PM [vite] (client) hmr update /src/components/ClientsSection.vue, /src/assets/main.css
+1:55:51 PM [vite] (client) hmr update /src/components/ClientsSection.vue, /src/assets/main.css (x2)
+1:56:03 PM [vite] (client) hmr update /src/assets/main.css
+1:57:10 PM [vite] (client) hmr update /src/components/ClientsSection.vue, /src/assets/main.css
+1:58:18 PM [vite] (client) hmr update /src/components/ClientsSection.vue, /src/assets/main.css (x2)
+2:02:09 PM [vite] (client) hmr update /src/components/ClientsSection.vue, /src/assets/main.css (x3)
+2:06:08 PM [vite] (client) hmr update /src/components/ClientsSection.vue, /src/assets/main.css (x4)
+2:06:08 PM [vite] Internal server error: Element is missing end tag.
+  Plugin: vite:vue
+  File: /Users/nicolastrucco/Documents/Sai/src/components/ClientsSection.vue:53:5
+  51 |      </div>
+  52 |  
+  53 |      <div class="mx-auto max-w-6xl">
+     |       ^
+  54 |        <div class="mt-16 grid gap-8 lg:grid-cols-12">
+  55 |        <div class="lg:col-span-3 lg:col-start-1">
+      at createCompilerError (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-core/dist/
+      at createCompilerError (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:1378:17)
+      at emitError (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-core/dist/compiler-c
+      at emitError (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:3014:5)
+      at Object.onclosetag (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-core/dist/co
+      at Object.onclosetag (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:2381:13)
+      at Tokenizer.stateInClosingTagName (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compile
+      at Tokenizer.stateInClosingTagName (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:799:16)
+      at Tokenizer.parse (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-core/dist/comp
+      at Tokenizer.parse (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:1157:16)
+      at Object.baseParse (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-core/dist/com
+      at Object.baseParse (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:3053:13)
+      at Object.parse (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-dom/dist/compiler
+      at Object.parse (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-dom/dist/compiler-dom.cjs.js:910:23)
+      at Object.parse$1 [as parse] (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-sfc/
+      at Object.parse$1 [as parse] (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-sfc/dist/compiler-sfc.cjs.js:1824:24)
+      at createDescriptor (file:///Users/nicolastrucco/Documents/Sai/node_modules/@vitejs/plugin-vue/d
+      at createDescriptor (file:///Users/nicolastrucco/Documents/Sai/node_modules/@vitejs/plugin-vue/dist/index.mjs:50:42)
+      at handleHotUpdate (file:///Users/nicolastrucco/Documents/Sai/node_modules/@vitejs/plugin-vue/di
+      at handleHotUpdate (file:///Users/nicolastrucco/Documents/Sai/node_modules/@vitejs/plugin-vue/dist/index.mjs:1144:25)
+2:06:28 PM [vite] (client) hmr update /src/components/ClientsSection.vue, /src/assets/main.css
+3:03:53 PM [vite] (client) hmr update /src/components/ClientsSection.vue, /src/assets/main.css (x2)
+3:04:00 PM [vite] (client) hmr update /src/assets/main.css
+3:04:26 PM [vite] (client) hmr update /src/components/ClientsSection.vue, /src/assets/main.css
+3:04:30 PM [vite] (client) hmr update /src/assets/main.css
+3:04:38 PM [vite] (client) hmr update /src/components/ClientsSection.vue, /src/assets/main.css
+3:04:45 PM [vite] (client) hmr update /src/components/ClientsSection.vue, /src/assets/main.css (x2)
+3:04:53 PM [vite] (client) hmr update /src/components/ClientsSection.vue, /src/assets/main.css (x3)
+3:04:56 PM [vite] (client) hmr update /src/components/ClientsSection.vue, /src/assets/main.css (x4)
+3:05:03 PM [vite] (client) hmr update /src/assets/main.css
+3:05:07 PM [vite] (client) hmr update /src/components/ClientsSection.vue, /src/assets/main.css
+3:05:18 PM [vite] (client) hmr update /src/components/ClientsSection.vue, /src/assets/main.css (x2)
+3:05:40 PM [vite] (client) hmr update /src/components/ClientsSection.vue, /src/assets/main.css (x3)
+3:07:14 PM [vite] (client) hmr update /src/components/ClientsSection.vue, /src/assets/main.css (x4)
+3:07:44 PM [vite] (client) hmr update /src/components/ClientsSection.vue, /src/assets/main.css (x5)
+4:43:27 PM [vite] (client) hmr update /src/components/ClientsSection.vue, /src/assets/main.css (x6)
+4:43:31 PM [vite] (client) hmr update /src/assets/main.css
+4:43:39 PM [vite] (client) hmr update /src/components/ClientsSection.vue, /src/assets/main.css
+4:47:28 PM [vite] (client) hmr update /src/components/ClientsSection.vue, /src/assets/main.css (x2)
+4:47:32 PM [vite] (client) hmr update /src/assets/main.css
+4:48:17 PM [vite] (client) hmr update /src/components/ClientsSection.vue, /src/assets/main.css
+4:48:21 PM [vite] (client) hmr update /src/components/ClientsSection.vue, /src/assets/main.css (x2)
+4:48:29 PM [vite] (client) hmr update /src/components/ClientsSection.vue, /src/assets/main.css (x3)
+4:48:34 PM [vite] (client) hmr update /src/assets/main.css
+4:48:56 PM [vite] (client) hmr update /src/components/ClientsSection.vue, /src/assets/main.css
+4:49:24 PM [vite] (client) hmr update /src/components/ClientsSection.vue, /src/assets/main.css (x2)
+4:53:38 PM [vite] (client) hmr update /src/components/ClientsSection.vue, /src/assets/main.css (x3)
+4:53:44 PM [vite] (client) hmr update /src/components/ClientsSection.vue, /src/assets/main.css (x4)
+4:53:47 PM [vite] (client) hmr update /src/components/ClientsSection.vue, /src/assets/main.css (x5)
+4:53:50 PM [vite] (client) hmr update /src/components/ClientsSection.vue, /src/assets/main.css (x6)
+4:54:45 PM [vite] (client) hmr update /src/components/ClientsSection.vue, /src/assets/main.css (x7)
+4:56:18 PM [vite] (client) hmr update /src/components/AboutSection.vue, /src/assets/main.css
+4:56:48 PM [vite] (client) hmr update /src/components/AboutSection.vue, /src/assets/main.css (x2)
+4:56:52 PM [vite] (client) hmr update /src/components/ClientsSection.vue, /src/assets/main.css
+4:56:55 PM [vite] (client) hmr update /src/components/ClientsSection.vue, /src/assets/main.css (x2)
+4:56:58 PM [vite] (client) hmr update /src/components/ClientsSection.vue, /src/assets/main.css (x3)
+4:57:03 PM [vite] (client) hmr update /src/assets/main.css
+4:57:04 PM [vite] (client) hmr update /src/components/ClientsSection.vue, /src/assets/main.css
+4:58:39 PM [vite] (client) hmr update /src/components/IndustriesSection.vue, /src/assets/main.css
+4:59:51 PM [vite] (client) hmr update /src/components/AboutSection.vue, /src/assets/main.css
+4:59:51 PM [vite] Internal server error: Invalid end tag.
+  Plugin: vite:vue
+  File: /Users/nicolastrucco/Documents/Sai/src/components/AboutSection.vue:109:5
+  107 |          </div>
+  108 |        </div>
+  109 |      </div>
+      |       ^
+  110 |    </section>
+  111 |  </template>
+      at createCompilerError (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-core/dist/
+      at createCompilerError (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:1378:17)
+      at emitError (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-core/dist/compiler-c
+      at emitError (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:3014:5)
+      at Object.onclosetag (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-core/dist/co
+      at Object.onclosetag (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:2391:9)
+      at Tokenizer.stateInClosingTagName (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compile
+      at Tokenizer.stateInClosingTagName (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:799:16)
+      at Tokenizer.parse (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-core/dist/comp
+      at Tokenizer.parse (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:1157:16)
+      at Object.baseParse (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-core/dist/com
+      at Object.baseParse (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:3053:13)
+      at Object.parse (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-dom/dist/compiler
+      at Object.parse (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-dom/dist/compiler-dom.cjs.js:910:23)
+      at Object.parse$1 [as parse] (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-sfc/
+      at Object.parse$1 [as parse] (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-sfc/dist/compiler-sfc.cjs.js:1824:24)
+      at createDescriptor (file:///Users/nicolastrucco/Documents/Sai/node_modules/@vitejs/plugin-vue/d
+      at createDescriptor (file:///Users/nicolastrucco/Documents/Sai/node_modules/@vitejs/plugin-vue/dist/index.mjs:50:42)
+      at handleHotUpdate (file:///Users/nicolastrucco/Documents/Sai/node_modules/@vitejs/plugin-vue/di
+      at handleHotUpdate (file:///Users/nicolastrucco/Documents/Sai/node_modules/@vitejs/plugin-vue/dist/index.mjs:1144:25)
+4:59:54 PM [vite] (client) hmr update /src/components/AboutSection.vue, /src/assets/main.css
+4:59:54 PM [vite] Internal server error: Invalid end tag.
+  Plugin: vite:vue
+  File: /Users/nicolastrucco/Documents/Sai/src/components/AboutSection.vue:109:5
+  107 |          </div>
+  108 |        </div>
+  109 |      </div>
+      |       ^
+  110 |    </section>
+  111 |  </template>
+      at createCompilerError (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-core/dist/
+      at createCompilerError (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:1378:17)
+      at emitError (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-core/dist/compiler-c
+      at emitError (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:3014:5)
+      at Object.onclosetag (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-core/dist/co
+      at Object.onclosetag (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:2391:9)
+      at Tokenizer.stateInClosingTagName (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compile
+      at Tokenizer.stateInClosingTagName (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:799:16)
+      at Tokenizer.parse (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-core/dist/comp
+      at Tokenizer.parse (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:1157:16)
+      at Object.baseParse (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-core/dist/com
+      at Object.baseParse (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:3053:13)
+      at Object.parse (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-dom/dist/compiler
+      at Object.parse (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-dom/dist/compiler-dom.cjs.js:910:23)
+      at Object.parse$1 [as parse] (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-sfc/
+      at Object.parse$1 [as parse] (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-sfc/dist/compiler-sfc.cjs.js:1824:24)
+      at createDescriptor (file:///Users/nicolastrucco/Documents/Sai/node_modules/@vitejs/plugin-vue/d
+      at createDescriptor (file:///Users/nicolastrucco/Documents/Sai/node_modules/@vitejs/plugin-vue/dist/index.mjs:50:42)
+      at handleHotUpdate (file:///Users/nicolastrucco/Documents/Sai/node_modules/@vitejs/plugin-vue/di
+      at handleHotUpdate (file:///Users/nicolastrucco/Documents/Sai/node_modules/@vitejs/plugin-vue/dist/index.mjs:1144:25)
+4:59:57 PM [vite] (client) hmr update /src/components/AboutSection.vue, /src/assets/main.css
+4:59:57 PM [vite] Internal server error: Invalid end tag.
+  Plugin: vite:vue
+  File: /Users/nicolastrucco/Documents/Sai/src/components/AboutSection.vue:109:5
+  107 |          </div>
+  108 |        </div>
+  109 |      </div>
+      |       ^
+  110 |    </section>
+  111 |  </template>
+      at createCompilerError (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-core/dist/
+      at createCompilerError (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:1378:17)
+      at emitError (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-core/dist/compiler-c
+      at emitError (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:3014:5)
+      at Object.onclosetag (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-core/dist/co
+      at Object.onclosetag (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:2391:9)
+      at Tokenizer.stateInClosingTagName (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compile
+      at Tokenizer.stateInClosingTagName (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:799:16)
+      at Tokenizer.parse (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-core/dist/comp
+      at Tokenizer.parse (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:1157:16)
+      at Object.baseParse (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-core/dist/com
+      at Object.baseParse (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:3053:13)
+      at Object.parse (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-dom/dist/compiler
+      at Object.parse (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-dom/dist/compiler-dom.cjs.js:910:23)
+      at Object.parse$1 [as parse] (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-sfc/
+      at Object.parse$1 [as parse] (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-sfc/dist/compiler-sfc.cjs.js:1824:24)
+      at createDescriptor (file:///Users/nicolastrucco/Documents/Sai/node_modules/@vitejs/plugin-vue/d
+      at createDescriptor (file:///Users/nicolastrucco/Documents/Sai/node_modules/@vitejs/plugin-vue/dist/index.mjs:50:42)
+      at handleHotUpdate (file:///Users/nicolastrucco/Documents/Sai/node_modules/@vitejs/plugin-vue/di
+      at handleHotUpdate (file:///Users/nicolastrucco/Documents/Sai/node_modules/@vitejs/plugin-vue/dist/index.mjs:1144:25)
+5:00:02 PM [vite] (client) hmr update /src/assets/main.css
+5:00:03 PM [vite] (client) hmr update /src/components/AboutSection.vue, /src/assets/main.css
+5:00:03 PM [vite] Internal server error: Invalid end tag.
+  Plugin: vite:vue
+  File: /Users/nicolastrucco/Documents/Sai/src/components/AboutSection.vue:109:5
+  107 |          </div>
+  108 |        </div>
+  109 |      </div>
+      |       ^
+  110 |    </section>
+  111 |  </template>
+      at createCompilerError (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-core/dist/
+      at createCompilerError (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:1378:17)
+      at emitError (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-core/dist/compiler-c
+      at emitError (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:3014:5)
+      at Object.onclosetag (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-core/dist/co
+      at Object.onclosetag (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:2391:9)
+      at Tokenizer.stateInClosingTagName (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compile
+      at Tokenizer.stateInClosingTagName (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:799:16)
+      at Tokenizer.parse (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-core/dist/comp
+      at Tokenizer.parse (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:1157:16)
+      at Object.baseParse (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-core/dist/com
+      at Object.baseParse (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-core/dist/compiler-core.cjs.js:3053:13)
+      at Object.parse (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-dom/dist/compiler
+      at Object.parse (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-dom/dist/compiler-dom.cjs.js:910:23)
+      at Object.parse$1 [as parse] (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-sfc/
+      at Object.parse$1 [as parse] (/Users/nicolastrucco/Documents/Sai/node_modules/@vue/compiler-sfc/dist/compiler-sfc.cjs.js:1824:24)
+      at createDescriptor (file:///Users/nicolastrucco/Documents/Sai/node_modules/@vitejs/plugin-vue/d
+      at createDescriptor (file:///Users/nicolastrucco/Documents/Sai/node_modules/@vitejs/plugin-vue/dist/index.mjs:50:42)
+      at handleHotUpdate (file:///Users/nicolastrucco/Documents/Sai/node_modules/@vitejs/plugin-vue/di
+      at handleHotUpdate (file:///Users/nicolastrucco/Documents/Sai/node_modules/@vitejs/plugin-vue/dist/index.mjs:1144:25)
+5:00:11 PM [vite] (client) hmr update /src/components/IndustriesSection.vue, /src/assets/main.css
+5:00:30 PM [vite] (client) hmr update /src/components/AboutSection.vue, /src/assets/main.css
+5:00:32 PM [vite] (client) hmr update /src/assets/main.css
+5:07:27 PM [vite] (client) hmr update /src/components/ClientsSection.vue, /src/assets/main.css
+5:07:32 PM [vite] (client) hmr update /src/assets/main.css
+5:07:44 PM [vite] (client) hmr update /src/components/ClientsSection.vue, /src/assets/main.css
+5:08:40 PM [vite] (client) hmr update /src/components/ClientsSection.vue, /src/assets/main.css (x2)
+7:48:36 PM [vite] (client) hmr update /src/views/HomeView.vue, /src/assets/main.css
+7:48:39 PM [vite] (client) hmr update /src/components/ClientsSection.vue, /src/assets/main.css
+7:48:48 PM [vite] (client) hmr update /src/components/ProductsSection.vue, /src/assets/main.css
+7:48:59 PM [vite] (client) hmr update /src/assets/main.css
+7:53:26 PM [vite] (client) hmr update /src/views/HomeView.vue, /src/assets/main.css
+7:53:30 PM [vite] (client) hmr update /src/assets/main.css
+7:55:33 PM [vite] (client) hmr update /src/components/ClientsSection.vue, /src/assets/main.css
+7:59:54 PM [vite] (client) hmr update /src/views/HomeView.vue, /src/assets/main.css
+7:59:59 PM [vite] (client) hmr update /src/assets/main.css
+8:00:39 PM [vite] (client) hmr update /src/views/HomeView.vue, /src/assets/main.css
+8:02:43 PM [vite] (client) hmr update /src/components/ProductsSection.vue, /src/assets/main.css
+8:03:46 PM [vite] (client) hmr update /src/components/ProductsSection.vue, /src/assets/main.css (x2)
+8:04:44 PM [vite] (client) hmr update /src/components/ClientsSection.vue, /src/assets/main.css
+8:08:50 PM [vite] (client) hmr update /src/components/ProductsSection.vue, /src/assets/main.css
+8:09:26 PM [vite] (client) hmr update /src/components/ProductsSection.vue, /src/assets/main.css (x2)
+8:09:29 PM [vite] (client) hmr update /src/assets/main.css
+8:10:23 PM [vite] (client) hmr update /src/components/ProductsSection.vue, /src/assets/main.css
+8:12:01 PM [vite] (client) hmr update /src/components/ProductsSection.vue, /src/assets/main.css (x2)
+8:12:24 PM [vite] (client) hmr update /src/components/ProductsSection.vue, /src/assets/main.css (x3)
+8:12:44 PM [vite] (client) hmr update /src/components/ProductsSection.vue, /src/assets/main.css (x4)
+8:12:51 PM [vite] (client) hmr update /src/components/ProductsSection.vue, /src/assets/main.css (x5)
+8:12:52 PM [vite] (client) hmr update /src/assets/main.css
+8:12:57 PM [vite] (client) hmr update /src/components/ProductsSection.vue, /src/assets/main.css
+8:13:01 PM [vite] (client) hmr update /src/assets/main.css
+8:13:02 PM [vite] (client) hmr update /src/components/ProductsSection.vue, /src/assets/main.css
+8:13:05 PM [vite] (client) hmr update /src/components/ProductsSection.vue, /src/assets/main.css (x2)
+8:13:15 PM [vite] (client) hmr update /src/components/ProductsSection.vue, /src/assets/main.css (x3)
+8:15:05 PM [vite] (client) hmr update /src/components/ProductsSection.vue, /src/assets/main.css (x4)
+8:16:01 PM [vite] (client) hmr update /src/components/ProductsSection.vue, /src/assets/main.css (x5)
+8:16:23 PM [vite] (client) hmr update /src/components/ProductsSection.vue, /src/assets/main.css (x6)
+8:19:04 PM [vite] (client) hmr update /src/components/ProductsSection.vue, /src/assets/main.css (x7)
+8:19:07 PM [vite] (client) hmr update /src/components/ProductsSection.vue, /src/assets/main.css (x8)
+8:19:12 PM [vite] (client) hmr update /src/components/ProductsSection.vue, /src/assets/main.css (x9)
+8:19:16 PM [vite] (client) hmr update /src/components/ProductsSection.vue, /src/assets/main.css (x10)
+8:19:20 PM [vite] (client) hmr update /src/components/ProductsSection.vue, /src/assets/main.css (x11)
+8:19:24 PM [vite] (client) hmr update /src/components/ProductsSection.vue, /src/assets/main.css (x12)
+8:19:27 PM [vite] (client) hmr update /src/components/ProductsSection.vue, /src/assets/main.css (x13)
+8:19:31 PM [vite] (client) hmr update /src/components/ProductsSection.vue, /src/assets/main.css (x14)
+8:19:34 PM [vite] (client) hmr update /src/components/ProductsSection.vue, /src/assets/main.css (x15)
+8:19:38 PM [vite] (client) hmr update /src/components/ProductsSection.vue, /src/assets/main.css (x16)
+8:20:25 PM [vite] (client) hmr update /src/components/ProductsSection.vue, /src/assets/main.css (x17)
+8:20:29 PM [vite] (client) hmr update /src/assets/main.css
+8:21:19 PM [vite] (client) hmr update /src/components/ProductsSection.vue, /src/assets/main.css
+8:21:23 PM [vite] (client) hmr update /src/components/ProductsSection.vue, /src/assets/main.css (x2)
+8:21:27 PM [vite] (client) hmr update /src/components/ProductsSection.vue, /src/assets/main.css (x3)
+8:21:31 PM [vite] (client) hmr update /src/assets/main.css
+8:21:31 PM [vite] (client) hmr update /src/components/ProductsSection.vue, /src/assets/main.css
+8:21:35 PM [vite] (client) hmr update /src/components/ProductsSection.vue, /src/assets/main.css (x2)
+8:21:39 PM [vite] (client) hmr update /src/components/ProductsSection.vue, /src/assets/main.css (x3)
+8:22:32 PM [vite] (client) hmr update /src/components/ProductsSection.vue, /src/assets/main.css (x4)
+8:23:10 PM [vite] (client) hmr update /src/components/ProductsSection.vue, /src/assets/main.css (x5)
+8:23:20 PM [vite] (client) hmr update /src/components/ProductsSection.vue, /src/assets/main.css (x6)
+8:23:56 PM [vite] (client) hmr update /src/components/ProductsSection.vue, /src/assets/main.css (x7)
+8:24:00 PM [vite] (client) hmr update /src/assets/main.css
+8:24:43 PM [vite] (client) hmr update /src/components/ProductsSection.vue, /src/assets/main.css
+8:25:53 PM [vite] (client) hmr update /src/components/ProductsSection.vue, /src/assets/main.css (x2)
+8:26:02 PM [vite] (client) hmr update /src/components/ProductsSection.vue, /src/assets/main.css (x3)
+8:26:06 PM [vite] (client) hmr update /src/components/ProductsSection.vue, /src/assets/main.css (x4)
+8:26:09 PM [vite] (client) hmr update /src/components/ProductsSection.vue, /src/assets/main.css (x5)
+8:26:13 PM [vite] (client) hmr update /src/components/ProductsSection.vue, /src/assets/main.css (x6)
+8:26:17 PM [vite] (client) hmr update /src/components/ProductsSection.vue, /src/assets/main.css (x7)
+8:36:54 PM [vite] (client) hmr update /src/components/ProductsSection.vue, /src/assets/main.css (x8)
+8:36:58 PM [vite] (client) hmr update /src/components/ClientsSection.vue, /src/assets/main.css
+8:40:59 PM [vite] (client) hmr update /src/components/Header.vue, /src/assets/main.css
+8:42:56 PM [vite] (client) hmr update /src/components/Header.vue, /src/assets/main.css (x2)
+8:43:12 PM [vite] (client) hmr update /src/components/Header.vue, /src/assets/main.css (x3)
+8:43:16 PM [vite] (client) hmr update /src/assets/main.css
+8:43:18 PM [vite] (client) hmr update /src/components/Header.vue, /src/assets/main.css
+8:43:51 PM [vite] (client) hmr update /src/components/Header.vue, /src/assets/main.css (x2)
+8:44:19 PM [vite] (client) hmr update /src/components/Header.vue, /src/assets/main.css (x3)
+8:44:30 PM [vite] (client) hmr update /src/components/Header.vue, /src/assets/main.css (x4)
+8:44:52 PM [vite] (client) hmr update /src/components/Header.vue, /src/assets/main.css (x5)
+8:45:29 PM [vite] (client) hmr update /src/components/Header.vue, /src/assets/main.css (x6)
+8:45:51 PM [vite] (client) hmr update /src/components/Header.vue, /src/assets/main.css (x7)
+8:48:43 PM [vite] (client) hmr update /src/components/Header.vue, /src/assets/main.css (x8)
+8:48:47 PM [vite] (client) hmr update /src/assets/main.css
+8:49:54 PM [vite] (client) hmr update /src/components/Header.vue, /src/assets/main.css
+8:50:03 PM [vite] (client) hmr update /src/App.vue, /src/assets/main.css
+8:53:58 PM [vite] (client) hmr update /src/components/Navbar.vue, /src/assets/main.css
+8:55:38 PM [vite] (client) hmr update /src/components/Navbar.vue, /src/assets/main.css (x2)
+8:58:09 PM [vite] (client) hmr update /src/components/Header.vue, /src/assets/main.css
+8:58:51 PM [vite] (client) hmr update /src/components/Header.vue, /src/assets/main.css (x2)
+8:59:43 PM [vite] (client) hmr update /src/components/Header.vue, /src/assets/main.css (x3)
+8:59:47 PM [vite] (client) hmr update /src/assets/main.css
+8:59:58 PM [vite] (client) hmr update /src/components/Header.vue, /src/assets/main.css
+9:02:35 PM [vite] (client) hmr update /src/components/Navbar.vue, /src/assets/main.css
+9:03:35 PM [vite] (client) hmr update /src/components/Navbar.vue, /src/assets/main.css (x2)
+9:03:44 PM [vite] (client) hmr update /src/components/Navbar.vue, /src/assets/main.css (x3)
+9:03:48 PM [vite] (client) hmr update /src/assets/main.css
+9:05:13 PM [vite] (client) hmr update /src/components/Navbar.vue, /src/assets/main.css
+9:05:18 PM [vite] (client) hmr update /src/assets/main.css
+9:06:03 PM [vite] (client) hmr update /src/components/Navbar.vue, /src/assets/main.css
+9:06:34 PM [vite] (client) hmr update /src/components/Navbar.vue, /src/assets/main.css (x2)
+9:08:01 PM [vite] (client) hmr update /src/components/Navbar.vue, /src/assets/main.css (x3)
+9:08:41 PM [vite] (client) hmr update /src/components/Navbar.vue, /src/assets/main.css (x4)
+9:10:21 PM [vite] (client) hmr update /src/components/Navbar.vue, /src/assets/main.css (x5)
+10:05:22 PM [vite] (client) hmr update /src/components/Navbar.vue, /src/assets/main.css (x6)
+10:36:50 AM [vite] (client) hmr update /src/components/Navbar.vue, /src/assets/main.css (x7)
+10:36:58 AM [vite] (client) hmr update /src/assets/main.css
+10:38:40 AM [vite] (client) hmr update /src/components/Navbar.vue, /src/assets/main.css
+10:40:42 AM [vite] (client) hmr update /src/components/Navbar.vue, /src/assets/main.css (x2)
+10:42:27 AM [vite] (client) hmr update /src/components/Navbar.vue, /src/assets/main.css (x3)
+10:43:41 AM [vite] (client) hmr update /src/components/Navbar.vue, /src/assets/main.css (x4)
+10:44:37 AM [vite] (client) hmr update /src/components/Navbar.vue, /src/assets/main.css (x5)
+10:47:05 AM [vite] (client) hmr update /src/components/Navbar.vue, /src/assets/main.css (x6)
+10:47:18 AM [vite] (client) hmr update /src/components/Navbar.vue, /src/assets/main.css (x7)
+10:48:03 AM [vite] (client) hmr update /src/components/Navbar.vue, /src/assets/main.css (x8)
+10:51:28 AM [vite] (client) hmr update /src/components/Navbar.vue, /src/assets/main.css (x9)
+10:52:38 AM [vite] (client) hmr update /src/components/Navbar.vue, /src/assets/main.css (x10)
+10:52:51 AM [vite] (client) hmr update /src/components/Navbar.vue, /src/assets/main.css (x11)
+10:54:25 AM [vite] (client) hmr update /src/components/Navbar.vue, /src/assets/main.css (x12)
+10:54:29 AM [vite] (client) hmr update /src/assets/main.css
+10:55:47 AM [vite] (client) hmr update /src/components/Navbar.vue, /src/assets/main.css
+10:56:15 AM [vite] (client) hmr update /src/components/Navbar.vue, /src/assets/main.css (x2)
+10:57:08 AM [vite] (client) hmr update /src/components/Navbar.vue, /src/assets/main.css (x3)
+10:57:45 AM [vite] (client) hmr update /src/components/Navbar.vue, /src/assets/main.css (x4)
+10:59:30 AM [vite] (client) hmr update /src/components/Navbar.vue, /src/assets/main.css (x5)
+10:59:51 AM [vite] (client) hmr update /src/components/Navbar.vue, /src/assets/main.css (x6)
+11:00:01 AM [vite] (client) hmr update /src/components/Navbar.vue, /src/assets/main.css (x7)
+11:01:45 AM [vite] (client) hmr update /src/components/Navbar.vue, /src/assets/main.css (x8)
+11:03:35 AM [vite] (client) hmr update /src/components/Navbar.vue, /src/assets/main.css (x9)
+11:12:35 AM [vite] (client) hmr update /src/views/HomeView.vue, /src/assets/main.css
+11:12:39 AM [vite] (client) hmr update /src/components/Navbar.vue, /src/assets/main.css
+11:12:50 AM [vite] (client) hmr update /src/components/ContactSection.vue, /src/assets/main.css
+11:48:05 AM [vite] (client) hmr update /src/components/ContactSection.vue, /src/assets/main.css (x2)
+Assets in public directory cannot be imported from JavaScript.
+If you intend to import that asset, put the file in the src directory, and use /src/PersonaReal.jpeg i
+If you intend to import that asset, put the file in the src directory, and use /src/PersonaReal.jpeg instead of /public/PersonaReal.jpeg.
+If you intend to use the URL of that asset, use /PersonaReal.jpeg?url.
+Files in the public directory are served at the root path.
+Instead of /public/PersonaReal.jpeg, use /PersonaReal.jpeg.
+11:49:41 AM [vite] (client) hmr update /src/components/ContactSection.vue, /src/assets/main.css
+11:49:45 AM [vite] (client) hmr update /src/components/ContactSection.vue, /src/assets/main.css (x2)
+11:50:26 AM [vite] (client) hmr update /src/components/ContactSection.vue, /src/assets/main.css (x3)
+11:51:11 AM [vite] (client) hmr update /src/components/ContactSection.vue, /src/assets/main.css (x4)
+11:51:58 AM [vite] (client) hmr update /src/components/ContactSection.vue, /src/assets/main.css (x5)
+11:52:43 AM [vite] (client) hmr update /src/components/ContactSection.vue, /src/assets/main.css (x6)
+11:54:09 AM [vite] (client) hmr update /src/components/ContactSection.vue, /src/assets/main.css (x7)
+11:54:13 AM [vite] (client) hmr update /src/components/ContactSection.vue, /src/assets/main.css (x8)
+11:54:17 AM [vite] (client) hmr update /src/components/ContactSection.vue, /src/assets/main.css (x9)
+11:54:57 AM [vite] (client) hmr update /src/components/ContactSection.vue, /src/assets/main.css (x10)
+11:55:01 AM [vite] (client) hmr update /src/components/ContactSection.vue, /src/assets/main.css (x11)
