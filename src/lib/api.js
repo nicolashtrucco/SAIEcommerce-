@@ -1,9 +1,9 @@
 import { getAdminToken } from '@/lib/auth'
+import { CONTACT_EMAIL } from '@/lib/contact'
+import demoClients from '@/data/demo-clients.json'
 import demoProducts from '@/data/demo-products.json'
 
-const DEFAULT_API_BASE_URL = 'http://localhost:3000'
-
-const API_BASE_URL = (import.meta.env.VITE_API_BASE_URL || DEFAULT_API_BASE_URL).replace(/\/$/, '')
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL?.replace(/\/$/, '')
 
 const getErrorMessage = async (response) => {
   try {
@@ -37,6 +37,10 @@ const apiRequest = async (
   path,
   { method = 'GET', params = {}, json, formData, authenticated = false } = {},
 ) => {
+  if (!API_BASE_URL) {
+    throw new Error('Esta función requiere un backend configurado.')
+  }
+
   const headers = {
     ...(json !== undefined ? { 'Content-Type': 'application/json' } : {}),
     ...(authenticated ? await getAuthHeaders() : {}),
@@ -117,10 +121,19 @@ export const fetchProductByCode = async (code) => {
   return product
 }
 
-export const fetchClients = () => apiRequest('/api/clients')
+export const fetchClients = async () =>
+  demoClients
+    .filter((client) => client.isActive)
+    .sort((firstClient, secondClient) => firstClient.sortOrder - secondClient.sortOrder)
 
-export const sendContactInquiry = (payload) =>
-  apiRequest('/api/contact', { method: 'POST', json: payload })
+export const sendContactInquiry = async ({ name, number, email, text }) => {
+  const subject = encodeURIComponent(`Consulta web de ${name}`)
+  const body = encodeURIComponent(
+    `Nombre: ${name}\nTeléfono: ${number || 'No informado'}\nEmail: ${email}\n\nConsulta:\n${text}`,
+  )
+
+  window.location.href = `${CONTACT_EMAIL.href}?subject=${subject}&body=${body}`
+}
 
 export const fetchAdminCategories = adminCategories.list
 export const createAdminCategory = adminCategories.create

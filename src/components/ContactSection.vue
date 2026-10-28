@@ -75,7 +75,7 @@ const submitContactForm = async () => {
 
   try {
     await sendContactInquiry(contactForm)
-    toast.success('Consulta enviada. En breve nos vamos a contactar.')
+    toast.success('Se abrió tu cliente de correo para enviar la consulta.')
     resetContactForm()
   } catch (error) {
     toast.error(error.message || 'No pudimos enviar la consulta. Intentá nuevamente.')

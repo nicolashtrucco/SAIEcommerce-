@@ -1,0 +1,14 @@
+[
+  { "id": "client-acindar", "name": "Acindar", "logo": "/acindar.png", "sortOrder": 1, "isActive": true },
+  { "id": "client-alfa-laval", "name": "Alfa Laval", "logo": "/AlfaLaval.png", "sortOrder": 2, "isActive": true },
+  { "id": "client-arcor", "name": "Arcor", "logo": "/Arcor.png", "sortOrder": 3, "isActive": true },
+  { "id": "client-cocacola", "name": "Coca-Cola", "logo": "/Cocacola.png", "sortOrder": 4, "isActive": true },
+  { "id": "client-danone", "name": "Danone", "logo": "/Danone.png", "sortOrder": 5, "isActive": true },
+  { "id": "client-eaton", "name": "Eaton", "logo": "/Eaton.png", "sortOrder": 6, "isActive": true },
+  { "id": "client-gestamp", "name": "Gestamp", "logo": "/Gestamp.png", "sortOrder": 7, "isActive": true },
+  { "id": "client-pirelli", "name": "Pirelli", "logo": "/Pirelli.png", "sortOrder": 8, "isActive": true },
+  { "id": "client-scania", "name": "Scania", "logo": "/Scania.png", "sortOrder": 9, "isActive": true },
+  { "id": "client-tenaris", "name": "Tenaris", "logo": "/Tenaris.png", "sortOrder": 10, "isActive": true },
+  { "id": "client-vicentin", "name": "Vicentin", "logo": "/vicentin.png", "sortOrder": 11, "isActive": true },
+  { "id": "client-yomo", "name": "Yomo", "logo": "/Yomo.png", "sortOrder": 12, "isActive": true }
+]

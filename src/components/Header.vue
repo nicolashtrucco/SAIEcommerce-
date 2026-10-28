@@ -16,6 +16,17 @@ const contactLink = { href: '#contacto' }
     id="inicio"
     class="relative isolate min-h-svh overflow-hidden text-white lg:h-screen lg:min-h-[720px]"
   >
+    <video
+      class="absolute inset-0 -z-20 h-full w-full object-cover"
+      autoplay
+      muted
+      loop
+      playsinline
+      preload="metadata"
+      aria-hidden="true"
+    >
+      <source src="/VideoRobotComprimido33mb.mov" type="video/quicktime" />
+    </video>
 
     <div class="absolute inset-0 -z-10 bg-black/50 lg:bg-black/65"></div>
 
