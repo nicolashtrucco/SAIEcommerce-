@@ -17,26 +17,26 @@ const contactLink = { href: '#contacto' }
     class="relative isolate min-h-svh overflow-hidden text-white lg:h-screen lg:min-h-[720px]"
   >
     <video
-      class="absolute inset-0 -z-20 h-full w-full object-cover"
+      class="absolute inset-0 z-0 h-full w-full object-cover"
       autoplay
       muted
       loop
       playsinline
-      preload="metadata"
+      preload="auto"
       aria-hidden="true"
     >
-      <source src="/VideoRobotComprimido33mb.mov" type="video/quicktime" />
+      <source src="/VideoRobotComprimido33mb.mov" />
     </video>
 
-    <div class="absolute inset-0 -z-10 bg-black/50 lg:bg-black/65"></div>
+    <div class="absolute inset-0 z-10 bg-black/50 lg:bg-black/65"></div>
 
     <div
-      class="absolute inset-0 -z-10 bg-gradient-to-b
+      class="absolute inset-0 z-10 bg-gradient-to-b
              from-black/25 via-transparent to-black/75 lg:hidden"
     ></div>
 
     <div
-      class="relative z-10 flex min-h-svh flex-col
+      class="relative z-20 flex min-h-svh flex-col
              px-5 pb-6 pt-24
              sm:px-7 sm:pb-8
              lg:h-full lg:px-14 lg:pb-14 lg:pt-24"
